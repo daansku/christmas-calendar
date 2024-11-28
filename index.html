@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Christmas Calendar</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="calendar">
+        <!-- Generate 24 boxes -->
+        <script>
+            for (let i = 1; i <= 24; i++) {
+                document.write(`<div class="day" id="day-${i}" onclick="revealSong(${i})">${i}</div>`);
+            }
+        </script>
+    </div>
+    <div id="song-display" class="song-display"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>
