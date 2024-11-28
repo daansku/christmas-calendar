@@ -6,26 +6,25 @@ const songs = [
     "Symphony (with Clean Bandit)",
     "Ruin My Life",
     "So Good",
-    "Uncover",
-    "Don't Worry Bout Me",
+    "None Of These Guys",
+    "You Love Who You Love",
     "Love Me Land",
     "WOW",
-    "Talk About Love",
+    "Words (with Alesso) ",
     "Poster Girl",
+    "Sankta Lucia",
     "I Would Like",
-    "Invisible",
     "All the Time",
-    "Funeral",
+    "Memory Lane",
     "Need Someone",
-    "Right Here",
+    "FFF",
     "What Happens Here",
     "TG4M",
-    "Only You",
+    "On My Love",
     "Weak Heart",
     "End of Time",
     "Can't Tame Her"
 ];
-
 // Get today's date and check if it's December
 const today = new Date();
 const currentMonth = today.getMonth(); // December is month 11 (0-indexed)
